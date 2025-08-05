@@ -1,5 +1,7 @@
 {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     "github.copilot.enable": {
         "*": false
     },
@@ -8,17 +10,23 @@
 =======
 >>>>>>> upstream/main
 =======
+>>>>>>> 4cd61cf34b1e7772ead25c228d006531ecfd03ea
     "editor.fontSize": 20,
     "editor.cursorBlinking": "solid",
     "editor.fontFamily": "Cascadia Mono",
     "editor.suggest.showVariables": true,
+<<<<<<< HEAD
+=======
 >>>>>>> upstream/main
+>>>>>>> 4cd61cf34b1e7772ead25c228d006531ecfd03ea
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
         "strings": false
     },
     "editor.acceptSuggestionOnCommitCharacter": false,
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
     "editor.acceptSuggestionOnEnter": "off"
@@ -27,10 +35,14 @@
     "github.copilot.editor.enableAutoCompletions": false
 >>>>>>> upstream/main
 =======
+>>>>>>> 4cd61cf34b1e7772ead25c228d006531ecfd03ea
     "editor.acceptSuggestionOnEnter": "on",
     "github.copilot.enable": {
         "*": false
     },
     "github.copilot.editor.enableAutoCompletions": false,
+<<<<<<< HEAD
+=======
 >>>>>>> upstream/main
+>>>>>>> 4cd61cf34b1e7772ead25c228d006531ecfd03ea
 }
