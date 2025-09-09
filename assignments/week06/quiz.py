@@ -107,8 +107,7 @@ def run_all_tests():
     print("\n--- Problem 4 Tests ---")
     try:
         scores1 = [85, 92, 78, 65, 88, 76, 95]
-        result1 = analyze_scores(scores1)
-        print(f"Test 1: {result1}")
+        result1 = analyze_scores(scores1)   
         scores2 = [45, 67, 89, 72, 58]
         result2 = analyze_scores(scores2)
         print(f"Test 2: {result2}")

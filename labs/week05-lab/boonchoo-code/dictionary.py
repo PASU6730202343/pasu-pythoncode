@@ -8,7 +8,7 @@ student = {
     "age": 20,
     "major": "Computer Science",
     "gpa": 3.8
-}
+} 
 
 # Different data types as values
 mixed_dict = {
