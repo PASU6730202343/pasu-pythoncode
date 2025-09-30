@@ -23,7 +23,8 @@ Example Result
 Enter text: The Quick Brown Fox Jumps Over The Lazy Dog
 
 === TEXT ANALYSIS REPORT ===
-Character Analysis:
+print('')
+
 - Total characters: 43 (with spaces), 35 (without spaces)
 - Vowels: 12 (e, u, i, o, o, u, o, e, e, a, o)
 - Consonants: 23
@@ -47,3 +48,18 @@ Transformations:
 USE: len(), split(), count(), upper(), lower(), title(), slicing operations
 
 """
+string =' the quick brown for jummmpes over'
+
+print('=== TEXT ANALYSIS REPORT ===')
+print('characte anoltsis')
+print('-total characters : %d(withspaces),%d(without spaces)'%len(string),len(string)-string.count(""))
+strlower=string.lower()
+vowels=string.count("a")+string.count("e")+string.count("i")+string.count("o")+string.count("u")
+for char in strlower:
+    if char in ["a","e","i","o","u"]:
+        vowelStr+=char
+print(f'vowels :{vowels}({vowelStr})')
+print(f'-consonants :{len(string)-string.count(" ")-vowels}')
+words=string.split
+print("word analysis:")
+print('total woed :',len(words))
